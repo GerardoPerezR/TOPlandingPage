@@ -1,0 +1,30 @@
+body    {
+
+    display: flex;
+    flex-direction: column;
+      margin: 0;
+      background-image: url("mike-kenneally-TD4DBagg2wE-unsplash.jpg")
+    
+  
+}
+
+nav     {
+    display: flex;
+    flex-direction: row;
+    background-color:#1F2937 ;
+    justify-content: space-between; 
+    padding:  48px;
+   
+}
+
+
+.linkSection {
+
+    display: flex;
+    flex-direction: row;
+}   
+
+
+.sectionOne {
+    background-color:#1F2937 ;
+}
