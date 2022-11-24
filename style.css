@@ -29,6 +29,13 @@ button  {
     color: white;
     font-weight: bold;
     font-size: 18px;
+   
+}
+
+
+.titleSection   {
+
+
 }
 
 
@@ -53,6 +60,7 @@ button  {
     display: flex;
     flex-direction: row;
     gap: 12px;
+    font-weight:100;
 }   
 
 
@@ -92,6 +100,7 @@ h1  {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-top: 0;
 }
 
 
@@ -100,4 +109,14 @@ h1  {
 
 footer{
     background-color:#1F2937
+}
+
+
+
+a   {
+
+    font-size: 18px;
+    font-weight: 0;
+    text-decoration: none;
+    color: #E5E7EB ;
 }
