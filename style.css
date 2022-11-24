@@ -39,6 +39,11 @@ button  {
 }
 
 
+h3 {
+    margin:0;
+}
+
+
 .item       {
     width: 162px;
  
@@ -71,7 +76,7 @@ button  {
 
     display: flex;
     flex-direction: row;
-    gap: 12px;
+    gap: 18px;
     font-weight:lighter;
 }   
 
@@ -92,19 +97,26 @@ button  {
 }
 
 .catalogueSection{
-    padding: 0 210px;
+    padding: 0 240px;
 }
 
 .quoteSection   {
-    padding: 0 210px;
+    margin: 96px 0;
+    padding: 120px 210px;
     text-align: center;
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .mainImage  {
+    display: flex;
     background-color: gray;
     width: 90%;
     margin: 0px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -160,4 +172,37 @@ a   {
     text-align: center;
     font-size: 18px;
     color: #1F2937;
+}
+
+.quoteAuthor        {
+    font-weight: bolder;
+    font-size: smaller;
+    font-style: normal;
+    text-align: end;
+    padding: 0 160px;
+}
+
+.callToActionSection    {
+    margin:0 0 96px 0;
+
+}
+
+
+.callToAction           {
+    background-color: #3882f6;
+    color: #f9faf8;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0   212px;
+    padding: 48px 0;
+    border-radius: 8px;
+
+}
+
+.callToAction button   {
+border-color: #E5E7EB;
+border-style: solid;
 }
